@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    
+}
+
+body{
+    background: #F0F0F0;
+}
+
+
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+}
+
+header h1{
+    font-size: 1.5rem;
+    color: #00838F;
+    
+}
+
+#DeleteNotes{
+    color: #FF7043;
+    border: none;
+    /* padding: 0.7rem 2rem; */
+    border-radius: 12px;
+    font-weight: bold;
+    border: 1px solid #263238;
+    cursor: pointer;
+}
+
+#mainDiv{
+    transform: scale(0.8);
+}
+
+.notesList{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+  
+}
+
+
+
+.note{
+    background: white;
+    border: 1px solid darkolivegreen;
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+h2{
+    font-size: 1rem;
+}
+
+p{
+    font-size: 0.6rem;
+    margin: 1rem
+}
+
+.delete{
+    
+    background-color: #F0F0F0;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 12px;
+    color: #FF7043;
+    font-weight: bold;
+    border: 1px solid #263238;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 0.5rem;
+}
+.update{
+    background-color: #F0F0F0;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 12px;
+    color:#00838F;
+    font-weight: bold;
+    border: 1px solid #263238;
+    cursor: pointer;
+    font-size: 0.5rem;
+}
+
+
+.createNote{
+    background: white;
+    border: 1px solid darkgrey;
+    padding: 1rem;
+    width: 30vw;
+    
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    transform: scale(0.8);
+    margin-top: 0px;
+}
+
+h4{
+    font-size: 0.7rem;
+    
+}
+input{
+    display: block;
+    outline: none;
+    line-height: 2rem;
+    border: none;
+    border-bottom: 1px solid #00695c;
+    margin: 0.2rem 0;
+    width: 100%;
+    /* padding: 5px; */
+    font-size: 0.5rem;
+}
+
+.create{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2{
+    margin-top: 1rem;
+   
+}
+
+#createNoteButton{
+    width: 50%;
+    background-color: #00897B;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #263238;
+    cursor: pointer;
+    font-size: 0.5rem;
+    display: block;
+    margin: auto;
+}
+
+.radio-group{
+    display: flex;
+    align-items: center;
+    margin-top: 0.8rem;
+    font-size: 0.5rem;
+}
+
+.radio-group lable{
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    
+}
+.role{
+    font-size: 0.7rem;
+    margin-right: 1rem;
+}
+#role{
+    font-size: 0.5rem;
+}
+.role_yes{
+    margin: 1rem;
+}
+
+.radio-group{
+    margin: 0px;
+    padding: 0px;
+}
+
+

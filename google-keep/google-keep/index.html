@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Create Player dashBoard</h1>
+       
+    </header>
+
+    <section class="notesList">
+        
+
+    </section>
+
+
+    <hr>
+    <section class="create">
+        <h2>Add Players</h2>
+
+        <div class="createNote">
+            <form action="" id="playerForm">
+                <input type="text" id="first_name" name="first_name" placeholder="Enter First name " required />
+                <input type="text" id="last_name" name="last_name" placeholder="Enter last name" required />
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" required />
+                <input type="number" id="phone" name="phone" placeholder="Enter Your phone Number" required />
+                <div>
+                    <label class="role" for="role"> Role : </label>
+                    <select name="role" id="role">
+                        <option value="">Select Role</option>
+                        <option value="batsman">Batsman</option>
+                        <option value="bowler">Bowler</option>
+                        <option value="all_rounder">All Rounder</option>
+                    </select>
+                </div>
+                <div class="radio-group">
+                    <label>Is The player is ready to play?</label>
+                    <label class="role_yes">
+                        <input type="radio" name="available" id="role_yes" value="yes" />
+                        Yes
+                    </label>
+                    <label>
+                        <input type="radio" name="available" id="role_no" value="no" />
+                        No
+                    </label>
+                </div>
+                <button type="button" id="createNoteButton">Submit</button>
+            </form>
+            <p id="warning-msg" style="color: red;"></p>
+            
+        </div>
+    </section>
+
+<script type="module" src="./main.js"></script>   
+</body>
+</html>
